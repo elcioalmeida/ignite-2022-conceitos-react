@@ -1,0 +1,73 @@
+.addNewForm {
+    width: 46rem;
+    margin-top: -1.69rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addNewForm input {
+    width: 39.875rem;
+    height: 3.375rem;
+    background: var(--gray-400);
+    color: var(--gray-100);
+    padding-left: 0.75rem;
+    border: 0;
+    border-radius: 8px;
+}
+
+.addNewForm button {
+    width: 5.625rem;
+    height: 3.25rem;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 0.5rem;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addNewForm button p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-block: 1rem;
+}
+
+.addNewForm button img {
+    margin-top: 1.1rem;
+}
+
+.tasks {
+    width: 46rem;
+    min-height: 17.938rem;
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
+.taskNumber {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.taskNumber .created {
+    color: var(--blue);
+}
+
+.taskNumber .done {
+    color: var(--purple);
+}
+
+.taskNumber strong {
+    background: var(--gray-400);
+    color: var(--gray-300);
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 50%;
+}

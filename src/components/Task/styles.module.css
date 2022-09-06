@@ -1,0 +1,36 @@
+.task {
+    background: var(--gray-400);
+    margin: 0.75rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task label {
+    margin-inline: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task label input[type=checkbox] {
+    color: var(--gray-400);
+}
+
+.task label input[type=checkbox]:checked ~ span {
+    text-decoration: line-through;
+}
+
+.task label span {
+    width: 39.5rem;
+    margin-left: 0.5rem;
+    margin-block: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 140%;
+}
+
+.task button {
+    background: var(--gray-400);
+    border: 0;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
